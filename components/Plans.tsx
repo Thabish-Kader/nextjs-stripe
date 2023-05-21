@@ -40,7 +40,7 @@ export const Plans = () => {
 	}, []);
 
 	return (
-		<div>
+		<div className="flex items-center justify-center ">
 			{plans.map((plan: TPlan) => (
 				<PlanCard key={plan.id} plan={plan} />
 			))}

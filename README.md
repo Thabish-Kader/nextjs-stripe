@@ -10,6 +10,8 @@
 
 <br/>
 <br/>
+<br/>
+<br/>
 
 This repo will show you how to integrate stripe to your next js application
 

@@ -133,7 +133,7 @@ export const Plans = () => {
 	const [plans, setPlans] = useState<TPlan[]>([]);
 
 	const fetchPlans = async () => {
-		const res = await fetch("getPlans", {
+		const res = await fetch("/getPlans", {
 			method: "GET",
 		});
 		const data = await res.json();

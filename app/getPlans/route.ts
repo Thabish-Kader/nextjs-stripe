@@ -5,7 +5,7 @@ export async function GET(request: Request) {
 	const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
 		apiVersion: "2022-11-15",
 	});
-	const plans = await stripe.prices.list();
-
-	return NextResponse.json(plans.data);
+	const stripeResponse = await stripe.prices.list();
+	const plans = stripeResponse.data;
+	return NextResponse.json(plans);
 }

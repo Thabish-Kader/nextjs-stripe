@@ -13,7 +13,7 @@
 <br/>
 <br/>
 
-This repo will show you how to integrate stripe to your next js application
+[![From Idea to Launch: Build Your SaaS Company with Stripe and Next.js](https://ytcards.demolab.com/?id=BrNwd_EZA0k&title=From+Idea+to+Launch%3A+Build+Your+SaaS+Company+with+Stripe+and+Next.js&lang=en&timestamp=1688760003&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250&border_radius=5 "From Idea to Launch: Build Your SaaS Company with Stripe and Next.js")](https://www.youtube.com/watch?v=BrNwd_EZA0k)
 
 ## Resources
 
